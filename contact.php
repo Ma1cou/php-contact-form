@@ -22,12 +22,12 @@ $email_address))
 if( empty($errors)) {
 
 $to = $myemail;
-$email_subject = "Contact form submission: $name";
-$email_body = "You have received a new message. ".
+$email_subject = "Uusi Viesti Henkilöltä: $name";
+$email_body = "Sinulle on saapunut uusi viesti.".
 
-" Here are the details:\n Name: $name \n ".
+" Tässä on tiedot:\n Name: $name \n ".
 
-"Email: $email_address\n Message \n $message";
+"Sähköposti: $email_address\n Viesti: \n $message";
 
 $headers = "From: $myemail\n";
 
